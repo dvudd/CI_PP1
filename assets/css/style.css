@@ -55,7 +55,7 @@ header a {
     border-bottom: 1px solid gold;
 }
 
-/* Navbar styles and dropdown toggle */
+/* Navigation bar style and toggle dropdown */
 nav {
     position: absolute;
     background-color: rgb(34, 34, 34);
@@ -87,7 +87,7 @@ main {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+    background-color: rgb(34, 34, 34);
 }
 
 #hero-image {
@@ -96,23 +96,56 @@ main {
     background: url("../images/hero2.jpg") no-repeat center center/cover;
     position: relative;
 }
-
+/* Ska jag ens ha en text? */
 .hero-text {
     text-align: center;
     font-size: 200%;
     color: red;
 }
 
-#text-box {
-    max-width: 940px;
+#main-section {
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
 }
 
+h2, h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid rgb(34, 34, 34);
+    margin: 5px 0;
+}
+
+ul {
+    padding: 0 20px;
+    list-style-type: none;
+}
+
 /* Footer Content */
 
-footer {
-    background-color: greenyellow;
+#social {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social i {
+    font-size: 160%;
+    padding: 5%;
+    color: #fafafa;
 }
