@@ -16,11 +16,64 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+/* Header Content */
 header {
     background-color: rgb(34, 34, 34);
     color: #fafafa;
     box-shadow: 0 2px 2px gold;
+    position: fixed;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 99;
+    width: 100%;
 }
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#menu>li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid gold;
+}
+
+/* Navbar styles and dropdown toggle */
+nav {
+    position: absolute;
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px gold;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+/* Main Content */
 
 main {
     flex: 1 0 auto;
@@ -52,8 +105,12 @@ h1, h2, h3 {
 #text-box {
     max-width: 940px;
     background-color: #fafafa;
-    
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
 }
+
+/* Footer Content */
 
 footer {
     background-color: greenyellow;
