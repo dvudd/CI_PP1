@@ -16,6 +16,12 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 /* Header Content */
 header {
     background-color: rgb(34, 34, 34);
@@ -36,9 +42,9 @@ header a {
 }
 
 #menu {
-    font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+    text-align: right;
 }
 
 #menu>li {
@@ -59,6 +65,7 @@ nav {
     box-shadow: 0 2px 2px gold;
     display: none;
     top: 100%;
+    text-transform: uppercase;
 }
 
 #nav-toggle:checked~nav {
@@ -70,29 +77,23 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 /* Main Content */
 
 main {
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     background-color: aqua;
 }
 
-h1, h2, h3 {
-    font-family: 'Mulish', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url("../images/hero-image.jpg") no-repeat center center/cover;
+    background: url("../images/hero2.jpg") no-repeat center center/cover;
     position: relative;
 }
 
