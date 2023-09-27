@@ -41,6 +41,10 @@ header a {
     color: inherit;
 }
 
+header a:hover {
+    color: gold
+}
+
 #menu {
     letter-spacing: 4px;
     list-style-type: none;
