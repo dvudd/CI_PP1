@@ -16,6 +16,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+h1 {
+    color: gold;
+}
+
 h1, h2, h3 {
     font-family: 'Mulish', sans-serif;
     text-transform: uppercase;
@@ -41,7 +45,11 @@ header a {
     color: inherit;
 }
 
-header a:hover {
+a:hover {
+    color: gold
+}
+
+header a:hover, header i:hover {
     color: gold
 }
 
@@ -85,7 +93,6 @@ nav {
 }
 
 /* Main Content */
-
 main {
     flex: 1 0 auto;
     margin-top: 40px;
@@ -94,17 +101,29 @@ main {
     background-color: rgb(34, 34, 34);
 }
 
+h2, h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+p {
+    padding: 0 20px;
+}
+
+hr {
+    border-top: 1px solid rgb(34, 34, 34);
+    margin: 5px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
 #hero-image {
     height: 500px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center/cover;
     position: relative;
-}
-/* Ska jag ens ha en text? */
-.hero-text {
-    text-align: center;
-    font-size: 200%;
-    color: red;
 }
 
 #main-section {
@@ -116,23 +135,9 @@ main {
     margin: auto;
 }
 
-h2, h3 {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 #main-section > div {
     margin-bottom: 20px;
     line-height: 20px;
-}
-
-p {
-    padding: 0 20px;
-}
-
-hr {
-    border-top: 1px solid rgb(34, 34, 34);
-    margin: 5px 0;
 }
 
 #information, #info {
@@ -161,13 +166,20 @@ hr {
 }
 
 /* Footer Content */
+#footer {
+    margin-top: 10px;
+    font-size: 80%;
+    color: #fafafa;
+    text-align: center;
+}
 
 #social {
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    margin: auto;
 }
 
 #social i {
@@ -176,10 +188,46 @@ hr {
     color: #fafafa;
 }
 
+#social i:hover {
+    color: gold;
+}
+
+#copyright {
+    color: #fafafa96;
+}
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
     main {
         box-shadow: 0 2px 2px gold;
+        margin-top: 53px;
     }
 
     #information {
@@ -193,5 +241,11 @@ hr {
         align-self: flex-end;
     }
 
+    #social {
+        max-width: 900px;
+    }
 
+    #copyright {
+        text-align: right;
+    }
 }
