@@ -122,8 +122,15 @@ img {
 #hero-image {
     height: 500px;
     width: 100%;
-    background: url("../images/hero-image.jpg") no-repeat center center/cover;
     position: relative;
+}
+
+.hero-index {
+    background: url("../images/hero-index.jpg") no-repeat center center/cover;
+}
+
+.hero-booking {
+    background: url("../images/hero-booking.jpg") no-repeat center center/cover;
 }
 
 #main-section {
@@ -149,7 +156,7 @@ img {
     width: 100%;
     margin-top: 10px;
     background-color: rgb(34, 34, 34);
-    border: none;
+    border: 2px solid #fafafa;
     color: #fafafa;
     padding: 15px 32px;
     text-align: center;
@@ -163,6 +170,27 @@ img {
     background-color: #fafafa;
     color: rgb(34, 34, 34);
     border: 2px solid rgb(34, 34, 34);
+}
+
+/* Booking Content */
+#booking-form {
+    padding: 30px;
+}
+.text-input {
+    background: transparent;
+    color: rgb(34, 34, 34);
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid rgb(34, 34, 34);
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-button {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Footer Content */
@@ -239,6 +267,15 @@ img {
     .button {
         width: fit-content;
         align-self: flex-end;
+    }
+
+    #booking-form {
+        max-width: 400px;
+        margin: auto;
+    }
+
+    #booking-form > .button {
+        width: 100%;
     }
 
     #social {

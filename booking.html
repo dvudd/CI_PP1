@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags -->
+    <meta name="description"
+    content="GP Aviation. Personal luxurious helicopter experiences.">
+    <meta name="keywords" content="GP Aviation, helicopter, sightseeing, fly, transfer, luxurious">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Title -->
+    <title>GP AVIATION</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <a href="index.html"><h1>GP AVIATION</h1></a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <!-- Navigation bar -->
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="booking.html" class="active">Booking</a></li>
+                <li><a href="fleet.html">Our Fleet</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main Content -->
+    <main>
+        <section id="hero-image" class="hero-booking"></div></section>
+        <!-- Contents -->
+        <section id="main-section">
+            <div>
+                <h2>Booking</h2>
+                <br>
+                <hr>
+                <p>
+                    Secure your adventure today, and our sales experts will reach out to perfect the details. 
+                    Book now and embark on your sky-high experience!
+                </p>
+                <form id="booking-form" method="post" action="https://formdump.codeinstitute.net">
+                    <label for="date">Preffered Date: </label>
+                    <input type="date" id="date" name="date" required>
+                    <label for="quantity">Passengers: </label>
+                    <input type="number" id="passengers" name="passengers" min="1" max="6" required>
+                    <div>
+                        <div>
+                            <input type="radio" name="experience" id="sightseeing" value="sightseeing" required checked> 
+                            <label for="sightseeing">Sightseeing</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="experience" id="trial" value="trial" required checked> 
+                            <label for="trial">Trial Introductory Flight</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="experience" id="transfer" value="transfer" required checked> 
+                            <label for="transfer">Transfer</label>
+                        </div>
+                    </div>
+                    <label for="first_name">First Name: </label>
+                    <input type="text" name="first_name" id="first_name" class="text-input" required>
+                    <label for="last_name">Last Name: </label>
+                    <input type="text" name="last_name" id="last_name" class="text-input" required>
+                    <label for="phone_number">Phone Number: </label>
+                    <input type="text" name="phone_number" id="phone_number" class="text-input" required>
+                    <label for="email_address">E-Mail address: </label>
+                    <input type="email" name="email_address" id="email_address" class="text-input" required>
+                    <button type="submit" class="button">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div id="footer">
+        <p>Follow us</p>
+            <ul id="social">
+                    <li>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+                        <i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+                        <i class="fa-brands fa-twitter-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our YouTube page">
+                        <i class="fa-brands fa-youtube-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+                        <i class="fa-brands fa-instagram"></i></a>
+                    </li>
+            </ul>
+            <p id="copyright">Copyright © 2023 GP AVIATION</p>
+       </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/87926df488.js" crossorigin="anonymous"></script>
+</body>
+</html>
