@@ -29,53 +29,38 @@
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="booking.html" class="active">Booking</a></li>
+                <li><a href="booking.html">Booking</a></li>
                 <li><a href="fleet.html">Our Fleet</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
             </ul>
         </nav>
     </header>
     <!-- Main Content -->
     <main>
-        <section id="hero-image" class="hero-booking"></div></section>
+        <section id="hero-image" class="hero-about"></div></section>
         <!-- Contents -->
         <section id="main-section">
             <div>
-                <h2>Booking</h2>
+                <h2>About us</h2>
                 <hr>
                 <p>
-                    Secure your adventure today, and our sales experts will reach out to perfect the details. 
-                    Book now and embark on your sky-high experience!
+                    Founded by visionary aviation enthusiast Hans Andersson, GP Aviation has quickly risen to 
+                    prominence in the helicopter industry. Hans, driven by his lifelong passion for aviation, 
+                    established GP Aviation with a singular mission: to provide unparalleled helicopter experiences 
+                    to enthusiasts and travelers alike. Hans's journey began as a helicopter pilot himself, and his 
+                    dedication to safety, customer satisfaction, and innovation has been the cornerstone of GP 
+                    Aviation's success. The company has built a reputation for its exceptional service, top-notch 
+                    pilot team, and a commitment to making the thrill of helicopter flight accessible to everyone.
+                    From scenic tours to luxury transfers, GP Aviation has redefined the way people experience the 
+                    world from above. With a fleet of meticulously maintained helicopters and a team of skilled 
+                    professionals, Hans's vision of sharing the magic of flight has become a reality.
+                    At GP Aviation, we believe that the sky is not the limit—it's just the beginning of your adventure. 
+                    Join us and let your dreams take flight!
                 </p>
-                <form id="booking-form" method="post" action="https://formdump.codeinstitute.net">
-                    <div>
-                        <div>
-                            <input type="radio" name="experience" id="sightseeing" value="sightseeing" required checked> 
-                            <label for="sightseeing">Sightseeing</label>
-                        </div>
-                        <div>
-                            <input type="radio" name="experience" id="trial" value="trial" required> 
-                            <label for="trial">Trial Introductory Flight</label>
-                        </div>
-                        <div>
-                            <input type="radio" name="experience" id="transfer" value="transfer" required> 
-                            <label for="transfer">Transfer</label>
-                        </div>
-                    </div>
-                    <label for="date">Preffered Date: </label>
-                    <input type="date" id="date" name="date" required>
-                    <label for="quantity">Passengers: </label>
-                    <input type="number" id="passengers" name="passengers" min="1" max="6" required>
-                    <label for="first_name">First Name: </label>
-                    <input type="text" name="first_name" id="first_name" class="text-input" required>
-                    <label for="last_name">Last Name: </label>
-                    <input type="text" name="last_name" id="last_name" class="text-input" required>
-                    <label for="phone_number">Phone Number: </label>
-                    <input type="text" name="phone_number" id="phone_number" class="text-input" required>
-                    <label for="email_address">E-Mail address: </label>
-                    <input type="email" name="email_address" id="email_address" class="text-input" required>
-                    <button type="submit" class="button">SUBMIT</button>
-                </form>
+                <div id="owner">
+                    <img src="assets/images/owner.jpeg" class="owner" alt="This person does not exist">
+                </div>
+
             </div>
         </section>
     </main>
