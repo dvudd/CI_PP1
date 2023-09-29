@@ -72,6 +72,7 @@ header a:hover, header i:hover {
 }
 
 /* Navigation bar style and toggle dropdown */
+/* Original code from CI Love Running */
 nav {
     position: absolute;
     background-color: rgb(34, 34, 34);
@@ -123,6 +124,7 @@ img {
     max-width: 100%;
 }
 
+/* Hero image */
 #hero-image {
     height: 500px;
     width: 100%;
@@ -145,6 +147,7 @@ img {
     background: url("../images/hero-about.jpg") no-repeat center center/cover;
 }
 
+/* Main page styling */
 #main-section {
     background-color: #fafafa;
     display: flex;
@@ -259,7 +262,7 @@ img {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
-    /* from CI love running */
+    /* Original code from CI Love Running */
     nav {
         display: block;
         position: relative;
@@ -280,11 +283,13 @@ img {
         display: none;
     }
 
+    /* Main page */
     main {
         box-shadow: 0 2px 2px gold;
         margin-top: 53px;
     }
 
+    /* Make the information divs and booking button appear next to eachother */
     .information {
         display: flex;
         justify-content: center;
@@ -296,6 +301,8 @@ img {
         align-self: flex-end;
     }
 
+    /* Limit the size of the booking form */
+
     #booking-form {
         max-width: 400px;
         margin: auto;
@@ -305,6 +312,7 @@ img {
         width: 100%;
     }
 
+    /* Footer */
     #social {
         max-width: 900px;
     }
