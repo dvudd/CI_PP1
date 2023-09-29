@@ -20,7 +20,7 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="index.html"><h1>GP AVIATION</h1></a>
+        <a href="index.html"><h1 id="logoß">GP AVIATION</h1></a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label">
             <i class="fa-solid fa-bars"></i>
@@ -28,16 +28,18 @@
         <!-- Navigation bar -->
         <nav>
             <ul id="menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="booking.html">Booking</a></li>
-                <li><a href="fleet.html">Our Fleet</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="index.html" class="active" aria-label="Home">Home</a></li>
+                <li><a href="booking.html" aria-label="Booking">Booking</a></li>
+                <li><a href="fleet.html" aria-label="Our Fleet">Our Fleet</a></li>
+                <li><a href="about.html" aria-label="About Us">About Us</a></li>
             </ul>
         </nav>
     </header>
     <!-- Main Content -->
     <main>
-        <section id="hero-image" class="hero-index"></section>
+        <section id="hero-image" class="hero-index">
+            <h1 class="hidden">GP Aviation</h1>
+        </section>
         <!-- Contents -->
         <section id="main-section">
             <!-- Sightseeing Service -->
@@ -63,7 +65,7 @@
                     <li><i class="fa-regular fa-money-bill-1"></i> Prices starting at 4500€</li>
                 </ul>
                 <br>
-                <a href="booking.html"><button class="button">BOOK NOW</button></a>
+                <a href="booking.html" class="button" aria-label="Book your experience now!">BOOK NOW</a>
             </div>
             <!-- Trial Introductory Flight -->
             <div>
@@ -87,7 +89,7 @@
                     <li><i class="fa-regular fa-money-bill-1"></i> Prices starting at 500€</li>
                 </ul>
                 <br>
-                <a href="booking.html"><button class="button">BOOK NOW</button></a>
+                <a href="booking.html" class="button" aria-label="Book your experience now!">BOOK NOW</a>
             </div>
             <!-- Transfer Service -->
             <div>
@@ -114,7 +116,7 @@
                     <li><i class="fa-regular fa-money-bill-1"></i> Prices starting at 1000€</li>
                 </ul>
                 <br>
-                <a href="booking.html"><button class="button">BOOK NOW</button></a>
+                <a href="booking.html" class="button" aria-label="Book your experience now!">BOOK NOW</a>
             </div>
             <div id="safety">
                 <h3>Important information</h3>
