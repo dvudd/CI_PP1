@@ -20,14 +20,14 @@ h1 {
     color: gold;
 }
 
-h1.hidden {
-    visibility: hidden;
-}
-
 h1, h2, h3 {
     font-family: 'Mulish', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
+}
+
+h2.hidden {
+    visibility: hidden;
 }
 
 /* Header Content */
@@ -159,7 +159,7 @@ img {
     line-height: 20px;
 }
 
-#information, #info {
+.information, .info {
     padding: 0 20px;
     list-style-type: none;
 }
@@ -291,7 +291,7 @@ img {
         margin-top: 53px;
     }
 
-    #information {
+    .information {
         display: flex;
         justify-content: center;
         column-count: 2;

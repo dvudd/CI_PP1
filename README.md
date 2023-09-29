@@ -41,17 +41,21 @@ I've tested the page on Safari, Firefox and Chrome without any issues.
     Since I didin't want any text in this section I fixed it by adding this:
     '''html
     <section id="hero-image" class="hero-index">
-        <h1 class="hidden">GP Aviation</h1>
+        <h2 class="hidden">GP Aviation</h2>
     </section>
     '''
 
     '''css
-    h1.hidden {
+    h2.hidden {
         visibility: hidden;
     }
     '''
-
+* Duplicate ID information.
+    I had multiple <div> with the id=information. This is not valid HTML.
+    Changed 'id=information' to 'class=information'.
+    in style.css i changed '#information' to '.information'
 ### Known bugs
+No known bugs remaining.
 
 ### Validator Results
 * HTML
