@@ -28,28 +28,30 @@ This page showcases the different helicopters GP Aviation owns. With a picture a
 Here we find a backstory of the company, founded by a former swedish helicopter pilot.
 
 ### Footer
-
-
+The footer contains social media links and copyright information.
 
 ## Testing
-I've tested the page on Safari, Firefox and Chrome without any issues.
-
+I've tested the website on:
+* Safari
+* Firefox
+* Chrome
+* IOS
 
 ### Bugs
 * Warning: Section lacks heading.
     When validating i got a warning that the hero image section lacked a header.
     Since I didin't want any text in this section I fixed it by adding this:
-    '''html
+    ```html
     <section id="hero-image" class="hero-index">
         <h2 class="hidden">GP Aviation</h2>
     </section>
-    '''
+    ```
 
-    '''css
+    ```css
     h2.hidden {
         visibility: hidden;
     }
-    '''
+    ``````
 * Duplicate ID information.
     I had multiple <div> with the id=information. This is not valid HTML.
     Changed 'id=information' to 'class=information'.
