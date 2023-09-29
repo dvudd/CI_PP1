@@ -280,12 +280,6 @@ img {
         display: none;
     }
 
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
     main {
         box-shadow: 0 2px 2px gold;
         margin-top: 53px;

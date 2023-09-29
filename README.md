@@ -54,24 +54,23 @@ I've tested the website on:
     ```
 * Duplicate ID information.
     I had multiple <div> with the id=information. This is not valid HTML.
-    Changed `id=information` to `class=information`.
-    in style.css i changed `#information` to `.information`
+    * Changed `id=information` to `class=information`.
+    * in style.css i changed `#information` to `.information`
 
 ### Known bugs
 No known bugs remaining.
 
 ### Validator Results
 * HTML
-    * 
+    * No errors were found by [W3C validator](https://validator.w3.org) 
 * CSS
-    * No error were found by [jigsaw validator](https://jigsaw.w3.org/css-validator/)
+    * No errors were found by [jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
 ## Deployment
 The page is hosted on Github Pages
 [Link](https://dvudd.github.io/CI_PP1/)
 
 ## Credits
-
 ### Contents
 * The Code for the toggable navigation bar and social media links was taken from CI Love Running project.
 * Fonts used are:
