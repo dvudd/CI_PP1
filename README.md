@@ -51,11 +51,12 @@ I've tested the website on:
     h2.hidden {
         visibility: hidden;
     }
-    ``````
+    ```
 * Duplicate ID information.
     I had multiple <div> with the id=information. This is not valid HTML.
-    Changed 'id=information' to 'class=information'.
-    in style.css i changed '#information' to '.information'
+    Changed `id=information` to `class=information`.
+    in style.css i changed `#information` to `.information`
+
 ### Known bugs
 No known bugs remaining.
 
