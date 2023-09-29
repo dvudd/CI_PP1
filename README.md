@@ -1,13 +1,13 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 # GP Aviation
-GP Aviation is a homepage for the hypothetical helicopter company based in Sweden focused on selling experience-trips, such as sightseeing tours around Stockholm, short learning sessions with instructors or luxurious transfer trips.
+GP Aviation is a homepage for the hypothetical helicopter company based in Sweden focused on selling experience trips, such as sightseeing tours around Stockholm, short learning sessions with instructors or luxurious transfer trips.
 
 ### Header
 The header is fixed to the top of the page, with the company logo to the left and the navigation bar to the right.
 The logo is clickable and when pressed, it leads back to the Main page.
-The navigation bar is collapsed behind the burger icon, when clicked it expands and a links leading to different pages appear.
-When viewed on bigger screens, the burger icon becomes invisable and the links are arranged in a row on the header bar.
+The navigation bar is collapsed behind the burger icon, when clicked it expands and links leading to different pages appear.
+When viewed on bigger screens, the burger icon becomes invisible and the links are arranged in a row on the header bar.
 ### Main Page
 The main page starts with a wide scenic 'hero' shot from the inside of a helicopter.
 Beneath the hero image are three sections, each for the different services 'GP Aviation' has to offer.
@@ -18,13 +18,13 @@ Each section ends with a button that leads to the Booking page.
 Starts with a short paragraph explaining that the company's sales team will contact the client after the form beneath is submitted.
 The form contains:
 * Radio button selector for which experience the client is interested in.
-* Preffered date.
+* Preferred date.
 * Contact information.
 
 ### Our Fleet
 This page showcases the different helicopters GP Aviation owns. With a picture and a short paragraph.
 ### About us
-Here we find a backstory of the company, founded by a former swedish helicopter pilot.
+Here we find a backstory of the company, founded by a former Swedish helicopter pilot.
 
 ### Footer
 The footer contains social media links and copyright information.
