@@ -51,8 +51,8 @@ visibility: hidden;
 
 - Duplicate ID information.
 I had multiple `<div>` with the `id=information`. This is not valid HTML.
-* Changed `id=information` to `class=information`.
-* in style.css I changed `#information` to `.information`
+    * Changed `id=information` to `class=information`.
+    * in style.css I changed `#information` to `.information`
 ### Known bugs
 No known bugs remaining.
 ### Validator Results
@@ -67,8 +67,8 @@ The page is hosted on GitHub Pages
 ### Contents
 - The Code for the toggleable navigation bar and social media links was taken from CI Love Running project.
 - Fonts used are:
-* Font awesome
-* XX and XX from Google Fonts.
+    * Font awesome
+    * XX and XX from Google Fonts.
 ### Media
 - All photos of helicopters come from: [www.pexels.com](https://www.pexels.com/)
 - Favicon comes from: [favicon.io](https://favicon.io)
