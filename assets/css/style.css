@@ -57,6 +57,8 @@ header a:hover, header i:hover {
     color: gold
 }
 
+/* Navigation bar style and toggle dropdown */
+/* Original code from CI Love Running */
 #menu {
     letter-spacing: 4px;
     list-style-type: none;
@@ -71,8 +73,6 @@ header a:hover, header i:hover {
     border-bottom: 1px solid gold;
 }
 
-/* Navigation bar style and toggle dropdown */
-/* Original code from CI Love Running */
 nav {
     position: absolute;
     background-color: rgb(34, 34, 34);
