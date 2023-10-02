@@ -11,7 +11,8 @@ To the right are links to the different pages, the current page is underlined to
 The navigation bar is responsive so when viewed on smaller devices the links collapses into a bar icon, when pressed a menu appears with the links.
 
 ### Hero image.
-Each page starts with a large beatiful hero image that covers the entire width of the page.
+Each page starts with a large beatiful hero image that covers the entire width of the page. The image is different for each
+page making navigation easier.
 
 ### Main Page
 ![Main Page](readme_screenshots/scrot_main.png)
@@ -48,8 +49,8 @@ I've tested the website on:
 
 ### Bugs
 - Warning: Section lacks heading.
-When validating, I got a warning that the hero image section lacked a header.
-Since I didn't want any text in this section, I fixed it by adding this:
+When validating, I got a warning that the hero-image section lacked a header.
+Since I didn't want any text in this section, I fixed it by adding a hidden header:
 ```html
 <section id="hero-image" class="hero-index">
 <h2 class="hidden">GP Aviation</h2>
@@ -63,7 +64,7 @@ visibility: hidden;
 ```
 
 - Duplicate ID information.
-I had multiple `<div>` with the `id=information`. This is not valid HTML.
+I had multiple `<div>` with the `id=information` tag. This is not valid HTML.
     * Changed `id=information` to `class=information`.
     * in style.css I changed `#information` to `.information`
 
@@ -79,8 +80,6 @@ No known bugs remaining.
 ## Technologies used
 - HTML5
 - CSS
-- GitHub
-- Visual Studio Code
 
 ## Deployment
 The page is hosted on GitHub Pages
