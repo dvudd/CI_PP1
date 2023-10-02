@@ -14,11 +14,13 @@ The navigation bar is responsive so when viewed on smaller devices the links col
 Each page starts with a large beatiful hero image that covers the entire width of the page.
 
 ### Main Page
+![Main Page](readme_screenshots/scrot_main.png)
 Beneath the hero image are three sections, each for the different services 'GP Aviation' has to offer.
 Each section starts with a header and a location pin to show where the service is available. A short paragraph explains the experience followed by an unordered list that explains how many passengers each service can carry, the estimated length of the ride, as well as where the estimated starting price is currently at. 
 Each section ends with a button that leads to the Booking page.
 
 ### Booking
+![Booking](readme_screenshots/scrot_booking.png)
 Starts with a short paragraph explaining that the company's sales team will contact the client after the form beneath is submitted.
 The form contains:
 - Radio button selector for which experience the client is interested in.
@@ -26,12 +28,15 @@ The form contains:
 - Contact information.
 
 ### Our Fleet
+![Fleet](readme_screenshots/scrot_fleet.png)
 This page showcases the different aircrafts GP Aviation owns. With a picture and a short paragraph.
 
 ### About us
+![About](readme_screenshots/scrot_about.png)
 Here we find a backstory of the company, founded by a former Swedish helicopter pilot.
 
 ### Footer
+![Footer](readme_screenshots/scrot_footer.png)
 The footer contains social media links and copyright information.
 
 ## Testing
