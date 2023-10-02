@@ -5,6 +5,7 @@ GP Aviation is a website for the hypothetical helicopter company based in Sweden
 ## Features
 
 ### Navigation Bar
+![Navigation Bar](readme_screenshots/scrot_navbar.png)
 The Navigation bar is fixed to the top of the page, on the left side is the company logo, wich is clickable and leads back to the main page.
 To the right are links to the different pages, the current page is underlined to make it easier for the user to know where they are.
 The navigation bar is responsive so when viewed on smaller devices the links collapses into a bar icon, when pressed a menu appears with the links.
