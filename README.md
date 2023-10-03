@@ -74,9 +74,9 @@ No known bugs remaining.
 
 ### Validator Results
 * HTML
-* No errors were found by [W3C validator](https://validator.w3.org)
+    - No errors were found by [W3C validator](https://validator.w3.org)
 * CSS
-* No errors were found by [jigsaw validator](https://jigsaw.w3.org/css-validator/)
+    - No errors were found by [jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
 ## Technologies used
 ### Languages
