@@ -130,6 +130,6 @@ $ git clone https://https://github.com/dvudd/CI_PP1.com/
 ### Acknowledgements
 - Thank you to my mentor Jack Wachira
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-This is my Portfolio Project 1 as part of the Full Stack Software Developer program at [Code Institute](https://codeinstitute.net/).
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)\
+This is my Portfolio Project 1 as part of the Full Stack Software Developer program at [Code Institute](https://codeinstitute.net/).\
 David Eriksson 2023
