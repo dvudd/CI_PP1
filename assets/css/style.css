@@ -216,12 +216,9 @@ img {
 }
 
 /* About Content */
-#owner {
+.owner {
     display: flex;
     justify-content: center;
-}
-
-.owner {
     max-width: 20%;
     border-radius: 50%;
     margin-top: 20px;
