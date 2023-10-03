@@ -195,7 +195,7 @@ img {
 }
 
 /* Booking Content */
-#booking-form {
+.booking-form {
     padding: 30px;
 }
 .text-input {
@@ -300,12 +300,12 @@ img {
 
     /* Limit the size of the booking form */
 
-    #booking-form {
+    .booking-form {
         max-width: 400px;
         margin: auto;
     }
 
-    #booking-form > .button {
+    .booking-form > .button {
         width: 100%;
     }
 
