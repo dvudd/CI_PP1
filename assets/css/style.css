@@ -34,10 +34,6 @@ h1, h2, h3 {
     letter-spacing: 1px;
 }
 
-h2.hidden {
-    visibility: hidden;
-}
-
 /* Header Content */
 header {
     background-color: var(--bgcolor);
@@ -93,7 +89,7 @@ nav {
     display: block;
 }
 
-#nav-toggle {
+.hidden {
     display: none;
 }
 
