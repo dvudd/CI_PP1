@@ -229,14 +229,14 @@ img {
 }
 
 /* Footer Content */
-#footer {
+.footer {
     margin-top: 10px;
     font-size: 80%;
     color: var(--textcolor);
     text-align: center;
 }
 
-#social {
+.social {
     text-align: center;
     padding: 10px 0;
     display: flex;
@@ -245,17 +245,17 @@ img {
     margin: auto;
 }
 
-#social i {
+.social i {
     font-size: 150%;
     padding: 5%;
     color: var(--textcolor);
 }
 
-#social i:hover {
+.social i:hover {
     color: var(--highlight);
 }
 
-#copyright {
+.copyright {
     color: #fafafa96;
 }
 
@@ -313,11 +313,11 @@ img {
     }
 
     /* Footer */
-    #social {
+    .social {
         max-width: 900px;
     }
 
-    #copyright {
+    .copyright {
         text-align: right;
     }
 }
