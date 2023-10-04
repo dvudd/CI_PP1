@@ -41,6 +41,10 @@ Here we find a backstory of the company, founded by a former Swedish helicopter 
 ![Footer](readme_screenshots/scrot_footer.png)
 The footer contains social media links and copyright information.
 
+## First time visitor goals
+* I want first time users to be greeted by a clean and logical navigation bar and a big scenic hero image to draw them into wanting to fly in a helicopter.
+* The header beneath the hero image should draw users to scroll down to the paragraph and short selling points with a clearly visible booking button.
+
 ## Testing
 I've tested the website on:
 - Safari
