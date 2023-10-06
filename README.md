@@ -121,6 +121,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 $ git clone https://https://github.com/dvudd/CI_PP1.com/
 ```
 7. Press Enter. Your local clone will be created.
+8. Open `index.html` in your browser.
 
 ## Credits
 ### Contents
