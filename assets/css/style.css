@@ -132,19 +132,19 @@ img {
 }
 
 .hero-index {
-    background: url("../images/hero-index.jpg") no-repeat center center/cover;
+    background: url("../images/hero-index.webp") no-repeat center center/cover;
 }
 
 .hero-booking {
-    background: url("../images/hero-booking.jpg") no-repeat center center/cover;
+    background: url("../images/hero-booking.webp") no-repeat center center/cover;
 }
 
 .hero-fleet {
-    background: url("../images/hero-fleet.jpg") no-repeat center center/cover;
+    background: url("../images/hero-fleet.webp") no-repeat center center/cover;
 }
 
 .hero-about {
-    background: url("../images/hero-about.jpg") no-repeat center center/cover;
+    background: url("../images/hero-about.webp") no-repeat center center/cover;
 }
 
 /* Main page styling */
