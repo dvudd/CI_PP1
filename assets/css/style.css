@@ -126,7 +126,7 @@ img {
 
 /* Hero image */
 #hero-image {
-    height: 500px;
+    height: 350px;
     width: 100%;
     position: relative;
 }
@@ -270,6 +270,10 @@ img {
         display: none;
     }
 
+    /* Hero image */
+    #hero-image {
+        height: 500px;
+    }
     /* Main page */
     main {
         box-shadow: 0 2px 2px var(--highlight);
