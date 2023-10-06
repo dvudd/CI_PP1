@@ -1,5 +1,5 @@
 # GP Aviation
-![Full Screenshot](readme_screenshots/scrot_full.png)
+![Full Screenshot](readme_screenshots/scrot_full.webp)
 GP Aviation is a website for a hypothetical helicopter company based in Sweden focused on selling different experience trips, such as sightseeing tours around Stockholm, short learning sessions with instructors or luxurious transfer trips.
 
 ## Features
