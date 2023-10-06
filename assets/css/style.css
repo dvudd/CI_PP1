@@ -210,11 +210,12 @@ img {
 
 /* About Content */
 .owner {
-    display: flex;
-    justify-content: center;
+    display: block;
     max-width: 20%;
     border-radius: 50%;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
